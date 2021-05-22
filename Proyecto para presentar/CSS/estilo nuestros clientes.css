@@ -1,0 +1,160 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../CSS/fuentes/SIMPLIFICA\ Typeface.ttf);
+  }
+
+ 
+
+
+  /* COMIENZO ESTILOS HEADER */
+
+.background{
+    background-image: url(../imagenes/Doctorado-en-ingenieria-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+    position: relative;
+    opacity: 1;
+} 
+
+.background .navegador .container .row .col-2{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    
+    
+}
+
+header{
+    font-family: myFirstFont;
+    font-size: 18px;
+    
+    letter-spacing: 2px;
+}
+
+
+.col-10{
+    text-align: right;
+    font-size: 70px;
+    font-family:myFirstFont;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: -40px;
+    left: 10px;
+    font-weight: bold;
+} 
+
+.background .navegador .container .row .col-2{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    
+    
+}
+.cabecera{
+    font-size: 30px;
+    font-style: myFirstFont;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1); 
+    color:black;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    
+    
+
+}
+
+.subCabecera{
+    font-size: 25px;
+    font-style: myFirstFont;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1); 
+    color:black;
+}
+
+/* FIN ESTILOS HEADER */
+
+/*COMIENZO ESTILOS SECTION*/
+
+.titulo{
+    text-align: center;
+    color:black;
+    font-family:myFirstFont;
+    font-size: 70px;
+    align-self:auto;
+    padding-top:30px;
+    padding-bottom: 0%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+    
+}
+
+.imagenClientes{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/*FIN ESTILOS SECTION*/
+
+/* COMIENZO ESTILOS FOOTER */
+
+
+.direccion{
+    text-align: center;
+    font-family: MyFirstFont;
+    font-size: 30px;
+    margin-top:20px;
+
+    color:rgb(255,255,255)
+    
+}  
+
+.btn-group{
+
+    list-style-type: none;
+    margin-top:10px;
+    box-sizing: border-box;
+    display:flex;
+    margin-right : 32px;
+    
+}
+
+.iconos{
+    width:35px;
+    height: 35px;
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 10px;
+    float:none;
+	text-align:center;
+    box-sizing: border-box;
+    
+    
+
+} 
+
+.iconos:hover{
+    transform: scale(1.2);
+}
+
+.copyright{
+
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;   
+    color:rgb(255,255,255);
+    background-color: rgb(22, 18, 18);
+    margin-left:-20px;
+    margin-right: -15px;
+    display:block;
+    
+}
+
+/* FIN ESTILOS FOOTER */
